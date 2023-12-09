@@ -1,0 +1,4 @@
+@use 'mixins' as m;
+
+@include m.fontFace(montserrat, "../fonts/montserrat-medium.woff");
+@include m.fontFace(montserrat, "../fonts/montserrat-semibold.woff");

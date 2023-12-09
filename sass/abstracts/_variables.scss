@@ -1,0 +1,37 @@
+@use 'fonts';
+
+$primary-color: #ffffff;
+$secondary-color: #1D2D4A;
+$body-color: #161A30;
+$accent-color: #6528F7;
+$body-text-color: #1D2D4A;
+$heading-font-family: 'montserratsemibold', helvetica, arial;
+$body-font-family: 'montserratmedium', arial, sans-serif;
+$small-font-size: 8px;
+$base-font-size: 18px;
+$base-font-weight: 400;
+$bold-font-weight: 600;
+$light-font-weight: 200;
+
+
+
+$light-theme: (
+    "accent": (
+        "400": rgb(214, 92, 255),
+        "500": rgb(48, 255, 234),
+    ),
+    "primary": (
+        "400": rgb(255, 224, 202),
+    ),
+    "neutral": (
+        "400": rgb(248, 255, 199),
+        "500": rgb(129, 144, 140),
+    ),
+    "shadow": (
+        "1": (
+            0,
+            0,
+            0,
+        ),
+    ),
+);

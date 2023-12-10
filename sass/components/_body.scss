@@ -13,6 +13,10 @@ section {
   .section-container {
     display: flex;
 }
+
+.experience-sub-title, .project-title {
+  color: #221bff;
+}
   
   /* PROFILE SECTION */
   
@@ -20,8 +24,9 @@ section {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    background-color: #ddd;
+    background-color: #160f47;
     border-radius: 50px;
+    margin-bottom: 30px;
 }
   
   .section__pic-container {
@@ -44,6 +49,7 @@ section {
   
   .section__text p {
     font-weight: 600;
+    color: #fff;
 }
   
   .title {
@@ -51,6 +57,20 @@ section {
     text-align: center;
     color: #fff;
 }
+
+  .title1 {
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(254, 66, 194);
+  }
+
+  .title2 {
+    font-size: 2rem;
+    text-align: center;
+    background-color: #141341;
+    padding: 20px;
+    color: #fff;
+  }
   
   #socials-container {
     display: flex;
@@ -94,7 +114,7 @@ section {
   
   .btn-color-1,
   .btn-color-2:hover {
-    background: #221bff;
+    background: rgb(254, 66, 194);
     color: white;
 }
   

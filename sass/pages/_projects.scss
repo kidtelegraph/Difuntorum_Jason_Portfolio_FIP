@@ -5,10 +5,19 @@
 #projects {
     position: relative;
   }
+
+  .title {
+    position: relative;
+    display: block;
+    background-color: #141341;
+    padding: 20px;
+    color: #ddd;
+    align-items: center;
+  }
   
   .color-container {
-    border-color: rgb(163, 163, 163);
-    background-color: #ddd;
+    border-color: rgb(254, 66, 194);
+    background-color: #141341;
   }
   
   .project-img {
@@ -19,10 +28,10 @@
   
   .project-title {
     margin: 1rem;
-    color: black;
+    color: rgb(219, 219, 219);
   }
   
   .project-btn {
-    color: black;
+    color: rgb(255, 255, 255);
     border-color: rgb(163, 163, 163);
   }

@@ -7,7 +7,7 @@ Welcome to my portfolio website! My name is JM Difuntorum, and I am a Visual gra
 
 My specialty focuses on the aesthetics of a digital product, such as the images, colors, fonts, and layouts.
 
-also in creating entire visual languages for a brand or product.
+I am passionate in creating entire visual languages for a brand or product.
 
 # How to use
 This website showcases my best projects and skills, and provides information on how to contact me.

@@ -31,6 +31,7 @@ a:hover {
   text-decoration: wavy;
   padding: 20px;
   text-decoration-color: rgb(181, 181, 181);
+  border-radius: 2rem;
 }
 
 .logo {
@@ -178,12 +179,12 @@ a:hover {
   .nav-links {
     display: flex;
     flex-direction: row;
-    gap: 1.0rem;
-    top: 150px;
+    gap: 1rem;
+    top: 100px;
     text-align: center;
     position: relative;
     justify-content: center;
-    left: -180px;
+    left: -100px;
     align-items: center;
     padding: 14px 16px;
   }
@@ -199,8 +200,8 @@ a:hover {
 
   .logo img {
     position: relative;
-    max-width: 75%;
-    left: 250px;
+    max-width: 100%;
+    left: 190px;
   }
 
   #headline-container {

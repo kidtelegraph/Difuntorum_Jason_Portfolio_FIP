@@ -48,9 +48,11 @@ function toggleFullScreen() {
                 playerCon.webkitRequestFullscreen();
             }
         }
+    
+    gsap.fromTo("#full-screen i", { rotation: 0 }, { rotation: 360, duration: 0.5 });
     } else {
-        console.error("Fullscreen not supported by your browser.");
-    }
+    console.error("Fullscreen not supported by your browser.");
+}
 }
 
 function hideControls() {

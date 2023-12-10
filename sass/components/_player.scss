@@ -60,13 +60,6 @@ button {
     content: '\25A0';/* Unicode character for stop */
 }
 
-.player-container:-webkit-full-screen,
-.player-container:-ms-fullscreen,
-.player-container:fullscreen {
-    width: 100%;
-    height: 100%;
-}
-
 .fa, .fa-solid {
     color: #ffffff;
     font-size: 28px;

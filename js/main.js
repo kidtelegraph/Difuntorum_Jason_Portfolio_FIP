@@ -1,11 +1,39 @@
-
 import { sayHello } from './modules/module1.js';
 import { displaySkills } from './modules/module2.js';
 
 sayHello("JM Visuals here!");
 
+//GSAP import
+import { gsap } from 'gsap/dist/gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+
+//Register the plugins
+gsap.registerPlugin(ScrollTrigger);
+
+
+//Function to animate elements when they enter the viewport
+function animateOnScroll() {
+    gsap.utils.toArray('.animate-on-scroll').forEach(element => {
+        gsap.from(element, {
+            opacity: 0,
+            y: 50,
+            duration: 1,
+            scrollTrigger: {
+                trigger: element,
+                start: 'top 80%',
+                end: 'bottom 20%',
+                scrub: true,
+            },
+        });
+    });
+}
+
 const mySkills = ['HTML', 'CSS', 'JavaScript', 'SCSS', 'Adobe Illustrator', 'Cinema4D', 'Adobe Photoshop', 'Adobe Premiere Pro', 'Adobe After Effects'];
 displaySkills(mySkills);
+
+//Call the ScrollTrigger function
+animateOnScroll();
+
 
 //Contact Form
 

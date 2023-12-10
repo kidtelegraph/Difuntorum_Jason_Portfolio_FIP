@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 165">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #d8d8d8;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-family: KumbhSans-Regular, 'Kumbh Sans';
+        font-size: 15.36px;
+        font-variation-settings: 'wght' 400, 'YOPQ' 300;
+      }
+
+      .cls-7 {
+        letter-spacing: -.03em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2-2" data-name="Layer 2">
+    <g>
+      <g id="Layer_3" data-name="Layer 3">
+        <g>
+          <polygon class="cls-1" points="135 27.96 135 124.28 117.75 141.96 117.75 49.48 2.31 49.48 22.54 27.96 53.94 27.96 58.34 39.6 63.75 37.55 60.29 27.96 71.52 27.96 68.05 37.55 73.47 39.6 77.84 27.96 135 27.96"/>
+          <rect class="cls-3" y="55.98" width="111.88" height="87.17"/>
+          <polygon points="60.27 27.91 53.92 27.91 44.73 2.04 50.14 0 60.27 27.91"/>
+          <polygon points="71.55 27.91 77.89 27.91 87.08 2.04 81.67 0 71.55 27.91"/>
+          <path d="m21.34,68.98h67.76c5.41,0,9.8,4.5,9.8,10.05v41.66c0,5.55-4.39,10.05-9.8,10.05H21.34c-5.41,0-9.8-4.5-9.8-10.05v-41.66c0-5.55,4.39-10.05,9.8-10.05Z"/>
+          <polygon class="cls-1" points="26.1 84.19 47.43 80.06 41.09 91.88 66.18 84.78 55.8 102.51 79.19 91.29 71.66 110.79 79.19 107.03 81.46 111.97 60.7 123.79 68.77 102.51 39.07 118.17 53.2 95.13 28.4 103.1 36.48 88.33 26.96 90.4 26.1 84.19"/>
+        </g>
+      </g>
+      <g id="j.visuals" class="cls-5">
+        <text class="cls-2" transform="translate(31.63 161.1) scale(.98 1)"><tspan x="0" y="0">j</tspan><tspan class="cls-7" x="3.73" y="0">.</tspan><tspan class="cls-4" x="6.75" y="0">vis</tspan><tspan class="cls-6" x="25.53" y="0">u</tspan><tspan class="cls-4" x="34.58" y="0">als</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

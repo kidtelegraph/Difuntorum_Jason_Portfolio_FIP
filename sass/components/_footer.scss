@@ -1,74 +1,74 @@
-@use '../abstracts' as a;
+/* FOOTER SECTION */
 
 footer {
-    background-color: a.$primary-color;
-    color: a.$primary-color;
-    height: 40px;
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+.footer-logo {
+  position: relative;
+  justify-content: center;
+  top: -20px;
+  left: 625px;
+  display: flex;
+  width: 10%;
 }
 
 footer p {
-    line-height: 40px;
+  text-align: center;
 }
 
-.footer {
-    display: flex;
+@media screen and (min-width: 375px) and (max-width: 1199px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 70px;
-    transform: translate(350px, 800px);
-    width: 60%;
-  }
-  
-  .footer-logo {
-    margin-bottom: 20px;
-
-    img {
-        width: 97px;
-        height: 97px;
-    }
-  }
-  
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  
-  .social-icons a {
-    display: inline-block;
-    margin: 0 10px;
-    color: #333;
-    font-size: 20px;
-  }
-  
-  .social-icons a:hover {
-    color: #007bff;
-  }
-  
-  .social-icons i {
-    line-height: 1;
-  }
-  
-  .social-icons i:before {
-    font-family: FontAwesome;
-  }
-  
-  .social-icons .fa-facebook:before {
-    content: "\f09a";
-  }
-  
-  .social-icons .fa-twitter:before {
-    content: "\f099";
-  }
-  
-  .social-icons .fa-instagram:before {
-    content: "\f16d";
-  }
-  
-  .copyright {
-    font-size: 12px;
-    color: #666;
+    gap: 0.5rem;
     text-align: center;
   }
-  
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+}

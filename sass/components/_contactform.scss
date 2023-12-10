@@ -1,0 +1,59 @@
+/* general styles for form */
+#contactForm {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 900px;
+    width: 100%;
+    padding: 25px;
+    background: #262b67;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 12px;
+}
+  
+  #contactForm h2 {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: #fff;
+}
+  
+  #contactForm .flex {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    width: 100%;
+    gap: 20px;
+}
+  
+  #contactForm input[type="text"],
+  #contactForm input[type="email"],
+  #contactForm textarea {
+    padding: 12px;
+    background: #fff;
+    color: #16182E;
+    border-radius: 6px;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+  
+  #contactForm textarea {
+    resize: vertical;
+    width: 100%;
+}
+  
+  #contactForm button[type="submit"] {
+    padding: 12px 20px;
+    background-color: #3137e6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+  
+  #contactForm button[type="submit"]:focus {
+    outline: none;
+}

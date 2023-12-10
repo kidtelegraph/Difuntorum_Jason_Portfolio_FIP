@@ -1,5 +1,7 @@
 //Contact Form
 
+'use strict';
+
 function saveDataToLocalStorage(data) {
     const existingData = JSON.parse(localStorage.getItem('contactData')) || [];
     existingData.push(data);
@@ -23,11 +25,11 @@ function saveDataToLocalStorage(data) {
     form.reset();
   }
   
-  const form = document.getElementById('contactForm');
+  const form = document.querySelector('#contactForm');
   form.addEventListener('submit', handleSubmit);
 
   (function validationIIFE() {
-    document.getElementById('contactForm').addEventListener('submit', function (event) {
+    document.getElementById('#contactForm').addEventListener('submit', function (event) {
         // Your validation logic goes here
         var nameInput = document.getElementsByName('name')[0];
         var phoneInput = document.getElementsByName('phone')[0];

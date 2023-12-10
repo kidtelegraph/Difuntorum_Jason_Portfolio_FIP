@@ -54,7 +54,17 @@ footer {
   color: #fff;
 }
 
-@media screen and (min-width: 300px) and (max-width: 767px) {
+@media screen and (min-width: 120px) and (max-width: 299px) {
+  .footer-logo {
+    position: relative;
+    justify-content: center;
+    top: 15px;
+    display: flex;
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 1199px) {
   #contact,
   footer {
     height: 40vh;
@@ -75,9 +85,9 @@ footer {
     position: relative;
     justify-content: center;
     top: 15px;
-    left: 260px;
+    left: 335px;
     display: flex;
-    width: 25%;
+    width: 15%;
   }
 
   .about-containers,
@@ -108,12 +118,12 @@ footer {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .footer-logo {
     position: relative;
     justify-content: center;
     top: 5px;
-    left: 560px;
+    left: 540px;
     display: flex;
     width: 12%;
   }

@@ -36,7 +36,7 @@
     background: rgb(254, 66, 194);
     border-radius: 2rem;
     border: rgb(26, 1, 255) 0.1rem solid;
-    border-color: rgb(17, 0, 255);
+    border-color: rgb(36, 20, 255);
     text-align: center;
 }
   
@@ -71,7 +71,7 @@
 }
   
   .experience-sub-title {
-    color: rgb(29, 20, 30);
+    color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
@@ -116,11 +116,8 @@
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    background: (250, 250, 250);
-    margin: 2rem auto;
-    padding: 0.5rem;
+    border: #ff3c7c .1rem solid;
+    background-color: #271b5e;
 }
   
   .contact-info-container {

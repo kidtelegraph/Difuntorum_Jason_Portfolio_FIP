@@ -57,3 +57,24 @@
   #contactForm button[type="submit"]:focus {
     outline: none;
 }
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  #contactForm {
+    margin-top: 875px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  #contactForm {
+    margin-top: 450px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #contactForm {
+    margin-top: 20px;
+    position: relative;
+  }
+}

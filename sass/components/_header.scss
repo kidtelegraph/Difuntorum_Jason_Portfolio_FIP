@@ -14,6 +14,7 @@ nav {
 
 .nav-links {
   gap: 2rem;
+  font-weight: 400;
   list-style: none;
   font-size: 1.5rem;
 }
@@ -40,7 +41,26 @@ a:hover {
   cursor: default;
 }
 
-/* this is for the mobile NAV */
+#headline-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  height: 10vh;
+}
+
+.headline-tag {
+  font-family: v.$heading-font-family;
+  font-weight: 300;
+  color: aliceblue;
+  align-items: center;
+}
+
+.headline-tag:hover {
+  cursor: pointer;
+  font-size: 2em;
+  font-weight: 800;
+}
+
 
 #hamburger-nav {
   display: none;
@@ -97,42 +117,110 @@ a:hover {
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
   #desktop-nav {
     display: flex;
   }
 
   .logo {
     position: relative;
-    top: -300px;
+    top: 300px;
     max-width: 80%;
   }
 
   .logo img {
     position: relative;
     top: -290px;
+    max-width: 100%;
+    left: 100px;
+  }
+
+  .nav-links {
+    display: flex;
+    position: relative;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  #desktop-nav {
+    display: flex;
+  }
+
+  .logo {
+    position: relative;
+    max-width: 80%;
+  }
+
+  .logo img {
+    position: relative;
     max-width: 75%;
     left: 100px;
   }
 
   .nav-links {
     display: flex;
+    position: relative;
+    justify-content: center;
   }
-
 }
 
-@media screen and (min-width: 375px) and (max-width: 1199px){
+@media screen and (min-width: 300px) and (max-width: 767px){
 
   nav {
   justify-content: space-around;
   align-items: center;
-  height: 10vh;
+  height: 50vh;
+  }
+
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 1.0rem;
+    top: 150px;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    left: -180px;
+    align-items: center;
+    padding: 14px 16px;
+  }
+
+  .nav-links li a {
+    font-size: 1.3rem;
   }
 
   .logo {
-    max-width: 100%;
     position: relative;
-    top: 300px;
+    justify-content: center;
+  }
+
+  .logo img {
+    position: relative;
+    max-width: 75%;
+    left: 250px;
+  }
+
+  #headline-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-left: 50px;
+  }
+  
+  .headline-tag {
+    font-family: v.$heading-font-family;
+    font-weight: 300;
+    color: aliceblue;
+    align-items: center;
+  }
+  
+  .headline-tag:hover {
+    cursor: pointer;
+    font-size: 2em;
+    font-weight: 800;
   }
 
 }

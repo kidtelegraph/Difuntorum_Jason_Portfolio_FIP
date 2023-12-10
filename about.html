@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>J.VISUALS Portfolio</title>
-    <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   </head>
@@ -26,12 +25,7 @@
       <div class="logo">
         <img src="images/jvisuals.svg" alt="header-logo">
         </div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+
         <div class="menu-links">
           <li><a href="about.html" onclick="toggleMenu()">About</a></li>
           <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
@@ -237,22 +231,16 @@
         <button type="submit">Send Message</button>
       </form>
 
-      <footer>
-        <nav>
-          <div class="nav-links-container">
-            <ul class="nav-links">
-              <li><a href="#about">About</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-        <div class="footer-logo">
-        <img src="images/jvisualsog.svg" alt="footer-logo">
+      <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+              <img src="images/jvisualsog.svg" alt="footer-logo">
+            </div>
+          <div class="footer-socialmedia"><a href=""><i class="fa-brands fa-facebook"></i></a><a href=""><i class="fa-brands fa-instagram"></i></a><a href=""><i class="fa-brands fa-pinterest"></i></a><a href=""><i class="fa-brands fa-youtube"></i></a></div>
+          <div class="footer-nav"> <a href="#">About</a><a href="#">Privacy</a><a href="#">Content Guide</a><a href="#">Terms of use</a><a href="#">Advertising</a><a href="#">Jobs</a></div>
+          <p class="copyright">J.Visuals Copyright &#169; 2023 
+             All Rights Reserved.</p>
         </div>
-        <p>Copyright &#169; 2023 
-       Visual Graphic Designer. All Rights Reserved.</p>
       </footer>
   
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>

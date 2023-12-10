@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>J.VISUALS Portfolio</title>
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" preload="true">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   </head>
   <body>
@@ -21,24 +22,17 @@
         </ul>
       </div>
     </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">
-        <img src="images/jvisuals.svg" alt="header-logo">
-        </div>
-        <div class="menu-links">
-          <li><a href="about.html" onclick="toggleMenu()">ABOUT</a></li>
-          <li><a href="index.html" onclick="toggleMenu()">HOME</a></li>
-          <li><a href="others.html" onclick="toggleMenu()">OTHERS</a></li>
-        </div>
-      </div>
-    </nav>
+
+    <section id="headline-container">
+      <h1 class="headline-tag">TAKING DESIGN INTO NEW HEIGHTS</h1>
+    </section>
 
     <section id="profile">
       <div class="section__pic-container1">
         <img src="images/perso_photo.jpg" alt="personal-picture">
       </div>
       <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
+        <p class="section__text__p1">Hello there! I'm</p>
         <h1 class="title">Jason Marc</h1>
         <p class="section__text__p2">Visual Graphic Designer</p>
         <div class="btn-container">
@@ -75,6 +69,19 @@
             <source src="videos/demo_reel.webm" type="video/webm">
             <p>You're using a very old browser, that doesn;t support video playback.</p>
         </video>
+        <div class="video-controls hidden" id="video-controls">
+          <button id="play-button">
+          </button>
+          <button id="pause-button">
+          </button>
+          <button id="stop-button">
+          </button>
+          <i class="fa fa-volume-up"></i>
+          <input type="range" id="change-vol" step="0.05" min="0" max="1" value="1">
+          <button id="full-screen">
+            <i class="fa-solid fa-maximize"></i>
+          </button>
+      </div>
     </div>
 
     <section id="projects">
@@ -174,26 +181,21 @@
       </div>
     </div>
     </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <div class="footer-logo">
-      <img src="images/jvisualsog.svg" alt="footer-logo">
+    <footer class="footer">
+      <div class="footer-container">
+          <div class="footer-logo">
+            <img src="images/jvisualsog.svg" alt="footer-logo">
+          </div>
+        <div class="footer-socialmedia"><a href=""><i class="fa-brands fa-facebook"></i></a><a href=""><i class="fa-brands fa-instagram"></i></a><a href=""><i class="fa-brands fa-pinterest"></i></a><a href=""><i class="fa-brands fa-youtube"></i></a></div>
+        <div class="footer-nav"> <a href="#">About</a><a href="#">Privacy</a><a href="#">Content Guide</a><a href="#">Terms of use</a><a href="#">Advertising</a><a href="#">Jobs</a></div>
+        <p class="copyright">J.Visuals Copyright &#169; 2023 
+           All Rights Reserved.</p>
       </div>
-      <p>Copyright &#169; 2023 
-     Visual Graphic Designer. All Rights Reserved.</p>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/player.js"></script>
 </body>
 </html>

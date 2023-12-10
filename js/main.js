@@ -1,3 +1,12 @@
+
+import { sayHello } from './modules/module1.js';
+import { displaySkills } from './modules/module2.js';
+
+sayHello("JM Visuals here!");
+
+const mySkills = ['HTML', 'CSS', 'JavaScript', 'SCSS', 'Adobe Illustrator', 'Cinema4D', 'Adobe Photoshop', 'Adobe Premiere Pro', 'Adobe After Effects'];
+displaySkills(mySkills);
+
 //Contact Form
 
 'use strict';
@@ -29,7 +38,7 @@ function saveDataToLocalStorage(data) {
   form.addEventListener('submit', handleSubmit);
 
   (function validationIIFE() {
-    document.getElementById('#contactForm').addEventListener('submit', function (event) {
+    document.querySelector('#contactForm').addEventListener('submit', function (event) {
         // Your validation logic goes here
         var nameInput = document.getElementsByName('name')[0];
         var phoneInput = document.getElementsByName('phone')[0];

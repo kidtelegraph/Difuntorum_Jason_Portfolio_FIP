@@ -2,7 +2,7 @@
 // Connect to the database
 $servername = "localhost";
 $username = "root";
-$password = "root";
+$password = "";
 $database = "myportfoliodb";
 
 $connect = new mysqli($servername, $username, $password, $database);

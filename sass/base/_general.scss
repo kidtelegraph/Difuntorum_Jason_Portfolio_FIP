@@ -1,0 +1,31 @@
+@use '../abstracts/variables' as v;
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: v.$secondary-color;
+    font-family: v.$body-font-family;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  p {
+    color: v.$secondary-color;
+  }
+  
+  /* Transitions */
+  
+  a,
+  .btn {
+    color: v.$primary-color;
+    transition: all 300ms ease;
+
+  .btn2 {
+    color: v.$accent-color;
+  }
+}

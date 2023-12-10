@@ -1,0 +1,30 @@
+@use '../abstracts/variables' as v;
+
+.design-text {
+    justify-content: center;
+    display: inline-block;
+    position: relative;
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    .design-text {
+        justify-content: center;
+        display: inline-block;
+        top: 12rem;
+        position: relative;
+    }
+
+    .details-container {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .design-text {
+        justify-content: center;
+        display: flex;
+        position: relative;
+        top: 200px;
+        color: v.$primary-color;
+    }
+}

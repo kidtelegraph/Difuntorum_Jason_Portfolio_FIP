@@ -26,8 +26,11 @@
   
   a,
   .btn {
-    color: v.$primary-color;
+    color: #fff;
     transition: all 300ms ease;
+    background-color: black;
+    padding: 18px;
+    border-radius: 0.7em;
 
   .btn2 {
     color: v.$accent-color;

@@ -26,10 +26,10 @@ a {
 }
 
 a:hover {
-  color: v.$secondary-color;
-  background-color: v.$primary-color;
+  color: #fff;
+  background-color: rgb(221, 0, 255);
   text-decoration: wavy;
-  padding: 20px;
+  padding: 35px;
   text-decoration-color: rgb(181, 181, 181);
   border-radius: 2rem;
   font-weight: 800;
@@ -47,12 +47,13 @@ a:hover {
   display: flex;
   position: relative;
   justify-content: center;
-  height: 10vh;
+  height: 20vh;
+  padding: 100px;
 }
 
 .headline-tag {
   font-family: v.$heading-font-family;
-  font-weight: 300;
+  font-weight: 800;
   color: aliceblue;
   align-items: center;
 }
